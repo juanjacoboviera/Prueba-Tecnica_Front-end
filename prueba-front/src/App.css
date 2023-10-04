@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.search-container{
+  display: flex;
+  
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.search-btn{
+  margin-left: 10px;
+}
+
+.userTable-container{
+  margin-top: 1%;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.text-danger{
+  margin-top: 5px;
+  color: red;
+}
+
+.chart-container{
+margin-top: 10%;
+}
+
+.card-image{
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.cardBody-container{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.cardInfo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.p-card-content{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0 !important;
+}
+
+.p-card-footer{
+  padding: 0 !important;
+}
+
+.p-toolbar{
+  min-width: 50em;
+  display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+}
